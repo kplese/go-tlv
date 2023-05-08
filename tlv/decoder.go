@@ -30,9 +30,9 @@ type decoder struct {
 }
 
 const (
-	minTagSize = 1 // 2^1 = 2
+	minTagSize = 0 // 2^0 = 1
 	maxTagSize = 8 // 2^8 = 256
-	minLenSize = 1 // 2^1 = 2
+	minLenSize = 0 // 2^0 = 1
 	maxLenSize = 8 // 2^8 = 256
 )
 
