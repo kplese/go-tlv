@@ -1,4 +1,4 @@
-module github.com/pauloavelar/go-tlv
+module github.com/kplese/go-tlv
 
 go 1.17
 
