@@ -1,6 +1,6 @@
 # Contribution guidelines
 
-Please [open an **issue**](https://github.com/pauloavelar/go-tlv/issues/new)
+Please [open an **issue**](https://github.com/kplese/go-tlv/issues/new)
 with the details of the **feature request** or **bug** found.
 
 If you are willing to contribute with this project, please **fork the repo**
@@ -10,5 +10,5 @@ and open **pull requests**.
 > are aware of the work that is currently underway.
 
 In case of any **questions**, please
-[open an **issue**](https://github.com/pauloavelar/go-tlv/issues/new) for
+[open an **issue**](https://github.com/kplese/go-tlv/issues/new) for
 clarification.

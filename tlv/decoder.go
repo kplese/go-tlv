@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/pauloavelar/go-tlv/tlv/internal/errors"
-	"github.com/pauloavelar/go-tlv/tlv/internal/utils"
+	"github.com/kplese/go-tlv/tlv/internal/errors"
+	"github.com/kplese/go-tlv/tlv/internal/utils"
 )
 
 // Decoder is a configurable TLV decoder instance.

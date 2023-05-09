@@ -3,7 +3,7 @@ package utils
 import (
 	"encoding/binary"
 
-	"github.com/pauloavelar/go-tlv/tlv/internal/sizes"
+	"github.com/kplese/go-tlv/tlv/internal/sizes"
 )
 
 func GetPadding(typeSize, valueSize int) []byte {

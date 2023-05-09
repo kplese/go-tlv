@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/pauloavelar/go-tlv/tlv/internal/sizes"
-	"github.com/pauloavelar/go-tlv/tlv/internal/utils"
+	"github.com/kplese/go-tlv/tlv/internal/sizes"
+	"github.com/kplese/go-tlv/tlv/internal/utils"
 )
 
 // Node structure used to represent a decoded TLV message.

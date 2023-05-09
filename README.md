@@ -1,11 +1,11 @@
 # Go TLV
 
-[![go version](https://img.shields.io/github/go-mod/go-version/pauloavelar/go-tlv)](https://github.com/pauloavelar/go-tlv/blob/main/go.mod)
-[![go docs](https://pkg.go.dev/badge/github.com/pauloavelar/go-tlv.svg)](https://pkg.go.dev/github.com/pauloavelar/go-tlv)
-[![license](https://img.shields.io/github/license/pauloavelar/go-tlv)](https://github.com/pauloavelar/go-tlv/blob/main/LICENSE)
-[![build](https://img.shields.io/github/actions/workflow/status/pauloavelar/go-tlv/ci.yml?branch=main)](https://github.com/pauloavelar/go-tlv/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/pauloavelar/go-tlv/branch/main/graph/badge.svg?token=4V15TQTKRR)](https://codecov.io/gh/pauloavelar/go-tlv)
-[![open issues](https://img.shields.io/github/issues-raw/pauloavelar/go-tlv)](https://github.com/pauloavelar/go-tlv/issues)
+[![go version](https://img.shields.io/github/go-mod/go-version/kplese/go-tlv)](https://github.com/kplese/go-tlv/blob/main/go.mod)
+[![go docs](https://pkg.go.dev/badge/github.com/kplese/go-tlv.svg)](https://pkg.go.dev/github.com/kplese/go-tlv)
+[![license](https://img.shields.io/github/license/kplese/go-tlv)](https://github.com/kplese/go-tlv/blob/main/LICENSE)
+[![build](https://img.shields.io/github/actions/workflow/status/kplese/go-tlv/ci.yml?branch=main)](https://github.com/kplese/go-tlv/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/kplese/go-tlv/branch/main/graph/badge.svg?token=4V15TQTKRR)](https://codecov.io/gh/kplese/go-tlv)
+[![open issues](https://img.shields.io/github/issues-raw/kplese/go-tlv)](https://github.com/kplese/go-tlv/issues)
 
 ## What is TLV?
 
@@ -30,7 +30,7 @@ There are many implementations of the scheme. The example below is one of them:
 ```
 
 The **value** itself can be any binary format, such as numerical representations, strings and even
-other TLV messages. See [data_test.go](https://github.com/pauloavelar/go-tlv/blob/main/tlv/data_test.go)
+other TLV messages. See [data_test.go](https://github.com/kplese/go-tlv/blob/main/tlv/data_test.go)
 for an example of a complex structure.
 
 > It is up to the parser to know the **value** type and format based on the **tag**.
@@ -165,14 +165,14 @@ means none of it can be trusted.
 ## Changelog
 
 * **`v1.1.0`** (2023-06-01)
-  * [#23](https://github.com/pauloavelar/go-tlv/pull/23): nil pointer errors on manually-created nodes
+  * [#23](https://github.com/kplese/go-tlv/pull/23): nil pointer errors on manually-created nodes
     * fix panics when calling value getters on a node without a decoder reference
     * provide functions to create a Node with the proper configuration (standard or custom)
 
 * **`v1.0.0`** (2022-07-01)
   * **Breaking** change: parser has been renamed to decoder
-  * [#10](https://github.com/pauloavelar/go-tlv/issues/10): add support to custom tag and length sizes
-  * [#11](https://github.com/pauloavelar/go-tlv/issues/11): add support to custom endianness (byte order)
+  * [#10](https://github.com/kplese/go-tlv/issues/10): add support to custom tag and length sizes
+  * [#11](https://github.com/kplese/go-tlv/issues/11): add support to custom endianness (byte order)
 
 * **`v1.0.0-alpha1`** (2021-03-14)
   * First release with basic parsing support

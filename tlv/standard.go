@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/pauloavelar/go-tlv/tlv/internal/sizes"
+	"github.com/kplese/go-tlv/tlv/internal/sizes"
 )
 
 // stdByteOrder is the default endianness for parsing numbers.
